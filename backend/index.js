@@ -17,9 +17,9 @@ app.use(cors());
 
 
 const PORT = 10000;
-const MONGOURL = "mongodb+srv://bopanwarvedant27:xddK5q9NYgXgZ4Ts@cluster0.xsprekn.mongodb.net/crud";
+const MONGOURL = "mongodb+srv://tanmaysawwalakhe2:g3Vmr3PfDqjGtlVP@foodbloogingwebsite.umlp1pk.mongodb.net/crud";
 const JWT_SECRET = process.env.JWT_SECRET || "your_jwt_secret_key";
-const URL  = "mongodb+srv://bopanwarvedant27:xddK5q9NYgXgZ4Ts@cluster0.xsprekn.mongodb.net";
+const URL  = "mongodb+srv://tanmaysawwalakhe2:g3Vmr3PfDqjGtlVP@foodbloogingwebsite.umlp1pk.mongodb.net/";
 const client = new MongoClient(MONGOURL );
 const dbName = "myDatabase";
 
