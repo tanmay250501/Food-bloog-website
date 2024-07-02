@@ -57,12 +57,12 @@ export const Admineditcategory = () => {
     if (file) {
       const formData = new FormData();
       formData.append("file", file);
-      formData.append("upload_preset", "reactFoodApp");
-      formData.append("cloud_name", "dzged7hmp");
+      formData.append("upload_preset", "foodBlog");
+      formData.append("cloud_name", "df4jjnoo3");
 
       try {
         const response = await fetch(
-          "https://api.cloudinary.com/v1_1/dzged7hmp/image/upload",
+          "https://api.cloudinary.com/v1_1/df4jjnoo3/image/upload",
           {
             method: "POST",
             body: formData,

@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const { MongoClient } = require("mongodb");
 const bodyParser = require("body-parser");
-
+const require = require("dotenv");
 const User = require("./model/Model");
 const { Menu } = require("./model/JsonModel"); // Import the Menu model
 const bcrypt = require("bcrypt");
