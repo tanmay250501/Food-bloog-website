@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const Corouselnew = ({ categoryData }) => {
+
   
   const handleSmoothScroll = (e, categoryName) => {
     e.preventDefault();
